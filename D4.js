@@ -10,7 +10,7 @@ const area = function (l1, l2) {
 let lunghezzaBase = 7;
 let altezza = 3;
 let risultato = area(lunghezzaBase, altezza);
-console.log("qui la somma è diversa", risultato);
+console.log(" la somma è ", risultato);
 
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
@@ -49,7 +49,7 @@ const crazyDiff = function (a) {
 
 const primoNumero = 5;
 const sommaTotale = crazyDiff(primoNumero);
-console.log("qui la somma è", sommaTotale);
+console.log(" la somma è", sommaTotale);
 
 /* ESERCIZIO 4
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
